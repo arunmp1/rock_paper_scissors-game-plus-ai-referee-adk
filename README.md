@@ -7,8 +7,4 @@ The implementation follows an agent-style approach where the conversational flow
 
 Game state is stored in a single Python dictionary that persists across turns. It tracks the current round, scores for both the user and the bot, bomb usage, and whether the game has ended. State updates happen only through dedicated functions, which makes the flow of the game easy to understand and reason about.
 
-The project is implemented as a command-line application, which is sufficient for the scope of this assignment. The bot’s moves are chosen randomly, keeping the focus on correctness and architecture rather than strategy or UI complexity.
-
-To run the game, ensure that Python 3 is installed and execute the script using python rps_plus_referee.py. The game will guide you through each round and display the outcome clearly.
-
-With additional time, this project could be extended with a smarter bot strategy, improved natural language input handling, or replay functionality. However, the current version is intentionally kept minimal to highlight core engineering principles such as state modeling, tool-based logic, and clean separation of concerns.
+The project is implemented as a command-line application.
